@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 public class GestorDeSocios {
 
 	private static GestorDeSocios gs;
-	private ArrayList<Socio> socios;
+	public ArrayList<Socio> socios;
 
-	private GestorDeSocios() {
+	public GestorDeSocios() {
 		socios = new ArrayList<Socio>();
 	}
 
@@ -20,7 +20,7 @@ public class GestorDeSocios {
 		return gs;
 	}
 
-	public boolean verificacionSocio(Socio socio) {
+	/*public boolean verificacionSocio(Socio socio) {
 		if (socios.contains(socio))
 			return true;
 		return false;
@@ -29,13 +29,14 @@ public class GestorDeSocios {
 	public void agregarSocio(Socio socio) {
 		if (!verificacionSocio(socio))
 			socios.add(socio);
-	}
+	}*/
 
-	public ArrayList<Socio> getsocio() {
+
+	/*public ArrayList<Socio> getsocio() {
 		return socios;
-	}
+	}*/
 
-	public boolean existeSocio(int nroSocio) {
+	/*public boolean existeSocio(int nroSocio) {
 		return socios.stream().filter(s -> s.getNroSocio() == nroSocio).findAny().isPresent();
 	}
 
@@ -44,13 +45,13 @@ public class GestorDeSocios {
 			Socio socio = socios.stream().filter(s -> s.getNroSocio() - nroSocio == 0).findFirst().get();
 		}
 		return false;
-	}
+	}*/
 
-	public void LimpiarTodo() {
+	/*public void LimpiarTodo() {
 		socios.clear();
-	}
+	}*/
 
-	public ArrayList<Socio> getSociosPorGenero(Predicate<Socio> predicado) {
+	/*public ArrayList<Socio> getSociosPorGenero(Predicate<Socio> predicado) {
 		return socios.stream().filter(predicado).collect(Collectors.toCollection(ArrayList<Socio>::new));
 	}
 
@@ -60,7 +61,7 @@ public class GestorDeSocios {
 
 	public ArrayList<Socio> getNombresSociosMayoresDe(Predicate<Socio> predicado) {
 		return socios.stream().filter(predicado).collect(Collectors.toCollection(ArrayList<Socio>::new));
-	}
+	}*/
 
 	public double getPromedioEdad() {
 		int suma = 0;
@@ -91,9 +92,9 @@ public class GestorDeSocios {
 		return socios.stream().filter(predicado).collect(Collectors.toCollection(ArrayList<Socio>::new));
 	}
 
-	public int getCantidadDeSocios() {
+	/*public int getCantidadDeSocios() {
 		return socios.size();
-	}
+	}*/
 
 	public ArrayList<Socio> getSocios(Predicate<Socio> p, Comparator<Socio> c) {
 		return socios.stream().filter(p).sorted(c).collect(Collectors.toCollection(ArrayList<Socio>::new));

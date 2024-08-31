@@ -1,4 +1,6 @@
 .project
 .settings
 .classpath
-/bin
+/bin/
+/.idea/
+.iml
