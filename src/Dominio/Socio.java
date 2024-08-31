@@ -1,11 +1,8 @@
 package Dominio;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Objects;
-
 import Exceptions.ExceptionApellidoNull;
 import Exceptions.ExceptionApellidoVacio;
 import Exceptions.ExceptionFechaSocioNull;
@@ -21,7 +18,7 @@ public class Socio {
 	private boolean tienePrestamo;
 	private Genero generos;
 	Calendar fechaSocio;
-	//("Gabriel", "Rearte", 1, false, Genero.MASCULINO, c1)
+	
 	public Socio(String nombre, String apellido, int nroSocio,  
 			boolean tienePrestamos, Genero miGenero, Calendar fechaSocio) throws ExceptionSocio{
 		super();
@@ -124,7 +121,5 @@ public class Socio {
 		return nroSocio + "(" + generos + ")" + apellido + "," + nombre 
 				+ "(" +fechaSocio + ")" + "- Prestamos =" + tienePrestamo;
 	}
-	
-	
 	
 }
