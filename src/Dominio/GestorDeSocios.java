@@ -88,6 +88,7 @@ public class GestorDeSocios {
 		socios.removeIf(s -> s.getEdad() < edadLimite);
 	}*/
 
+
 	public ArrayList<Socio> getSociosConPrestamosActivos(Predicate<Socio> predicado) {
 		return socios.stream().filter(predicado).collect(Collectors.toCollection(ArrayList<Socio>::new));
 	}

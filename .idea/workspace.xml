@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e5dfaa-49fa-4ef8-a16d-885732c61d3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dominio/BorrarSocioMenorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dominio/EliminarSocioMenorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dominio/Persistencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dominio/Predicado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dominio/PromedioEdad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/Filters.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dominio/GestorDeSocios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/GestorDeSocios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +92,7 @@
       <workItem from="1725821005889" duration="172000" />
       <workItem from="1725973006415" duration="2196000" />
       <workItem from="1725975493603" duration="295000" />
+      <workItem from="1725975817834" duration="276000" />
     </task>
     <servers />
   </component>
