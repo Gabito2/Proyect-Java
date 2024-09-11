@@ -5,19 +5,20 @@ import java.util.ArrayList;
 public class AddSocio {
 
     private GestorDeSocios gestor;
-
-    public AddSocio(GestorDeSocios gestor) {
+    private Persistencia persistencia;
+    public AddSocio(GestorDeSocios gestor, Persistencia persistencia) {
         this.gestor = gestor;
+        this.persistencia = persistencia;
     }
 
     public boolean verificacionSocio(Socio socio) {
-        if (gestor.socios.contains(socio))
+        if (persistencia.socios.contains(socio))
             return true;
         return false;
     }
 
     public void agregarSocio(Socio socio) {
         if (!verificacionSocio(socio))
-            gestor.socios.add(socio);
+            persistencia.socios.add(socio);
     }
 }

@@ -5,7 +5,9 @@ import java.util.Comparator;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class GestorDeSocios {
+public abstract class GestorDeSocios implements InterfaceGestorSocio{
+	public AddSocio addSocio;
+
 
 	/*private static GestorDeSocios gs;
 
@@ -89,15 +91,15 @@ public class GestorDeSocios {
 	}*/
 
 
-	public ArrayList<Socio> getSociosConPrestamosActivos(Predicate<Socio> predicado) {
+	/*public ArrayList<Socio> getSociosConPrestamosActivos(Predicate<Socio> predicado) {
 		return socios.stream().filter(predicado).collect(Collectors.toCollection(ArrayList<Socio>::new));
-	}
+	}*/
 
 	/*public int getCantidadDeSocios() {
 		return socios.size();
 	}*/
 
-	public ArrayList<Socio> getSocios(Predicate<Socio> p, Comparator<Socio> c) {
+	/*public ArrayList<Socio> getSocios(Predicate<Socio> p, Comparator<Socio> c) {
 		return socios.stream().filter(p).sorted(c).collect(Collectors.toCollection(ArrayList<Socio>::new));
 	}
 
@@ -109,6 +111,6 @@ public class GestorDeSocios {
 	public ArrayList<Integer> getSociosX3(Predicate<Socio> p, Comparator<Socio> c) {
 		return socios.stream().filter(p).sorted(c).map(s -> s.getNroSocio())
 				.collect(Collectors.toCollection(ArrayList<Integer>::new));
-	}
+	}*/
 
 }

@@ -3,13 +3,15 @@ package Dominio;
 public class DeleteArray {
 
     private GestorDeSocios gestor;
+    private Persistencia persistencia;
 
-    public DeleteArray(GestorDeSocios gestor) {
+    public DeleteArray(GestorDeSocios gestor, Persistencia persistencia) {
         this.gestor = gestor;
+        this.persistencia = persistencia;
     }
 
     public void LimpiarTodo() {
-        gestor.socios.clear();
+        persistencia.socios.clear();
     }
 
 }
