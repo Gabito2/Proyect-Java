@@ -3,11 +3,9 @@ package Dominio;
 import java.util.function.Predicate;
 
 public class ExisteSocio {
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
 
-    public ExisteSocio(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public ExisteSocio(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 

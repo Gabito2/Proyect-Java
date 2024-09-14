@@ -5,11 +5,9 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class EliminarSocioMenorA {
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
 
-    public EliminarSocioMenorA(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public EliminarSocioMenorA(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 

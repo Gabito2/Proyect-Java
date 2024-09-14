@@ -2,6 +2,6 @@
 .settings
 .classpath
 /bin/
-/.idea/
+.idea/
 .iml
 .xml

@@ -2,11 +2,9 @@ package Dominio;
 
 public class PromedioEdad {
 
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
 
-    public PromedioEdad(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public PromedioEdad(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 

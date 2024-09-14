@@ -3,11 +3,8 @@ package Dominio;
 import java.util.ArrayList;
 
 public class AddSocio {
-
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
-    public AddSocio(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public AddSocio(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 

@@ -7,10 +7,8 @@ import java.util.stream.Collectors;
 
 public class FiltersSocio {
 
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
-    public FiltersSocio(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public FiltersSocio(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 

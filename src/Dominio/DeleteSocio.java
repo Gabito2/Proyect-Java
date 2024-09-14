@@ -2,11 +2,9 @@ package Dominio;
 
 public class DeleteSocio {
 
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
 
-    public DeleteSocio(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public DeleteSocio(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 

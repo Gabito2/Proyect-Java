@@ -1,11 +1,9 @@
 package Dominio;
 
 public class BorrarSocioMenorA {
-    private GestorDeSocios gestor;
     private Persistencia persistencia;
 
-    public BorrarSocioMenorA(GestorDeSocios gestor, Persistencia persistencia) {
-        this.gestor = gestor;
+    public BorrarSocioMenorA(Persistencia persistencia) {
         this.persistencia = persistencia;
     }
 
