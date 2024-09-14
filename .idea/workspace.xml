@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e5dfaa-49fa-4ef8-a16d-885732c61d3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/AddSocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/AddSocio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/BorrarSocioMenorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/BorrarSocioMenorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/CantidadSocios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/CantidadSocios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/DeleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/DeleteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/DeleteSocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/DeleteSocio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/EliminarSocioMenorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/EliminarSocioMenorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/ExisteSocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/ExisteSocio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/FiltersSocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/FiltersSocio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dominio/GestorDeSocios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/GestorDeSocios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/GetSocios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/GetSocios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/Instancia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/Persistencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/Persistencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dominio/PromedioEdad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dominio/PromedioEdad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +102,7 @@
       <workItem from="1726098195695" duration="21000" />
       <workItem from="1726098226850" duration="261000" />
       <workItem from="1726229263074" duration="4176000" />
-      <workItem from="1726330671083" duration="647000" />
+      <workItem from="1726330671083" duration="1117000" />
     </task>
     <servers />
   </component>

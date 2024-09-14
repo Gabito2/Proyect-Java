@@ -7,8 +7,18 @@ import java.util.stream.Collectors;
 
 public abstract class GestorDeSocios implements InterfaceGestorSocio{
 
-	public AddSocio addSocio;
-
+	private ArrayList<Socio> socios;
+	private AddSocio addSocio;
+	private Persistencia persistencia;
+	private BorrarSocioMenorA borrarSocioMenorA;
+	private DeleteArray deleteArray;
+	private DeleteSocio deleteSocio;
+	private EliminarSocioMenorA eliminarSocioMenorA;
+	private ExisteSocio existeSocio;
+	private FiltersSocio filtersSocio;
+	private GetSocios getSocios;
+	private PromedioEdad promedioEdad;
+	private Socio socio;
 
 	/*private static GestorDeSocios gs;
 
